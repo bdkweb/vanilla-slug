@@ -11,6 +11,26 @@ A lightweight, multi-language JavaScript library for converting strings to SEO-f
 - 🔧 **Highly configurable** (prefix, suffix, separators, custom replacements)
 - 📱 **Responsive** and mobile-friendly
 
+
+
+## 🎯 Live Demo
+
+Experience Vanilla Slug in action with our interactive demo:
+
+[**🚀 Try Live Demo**](https://dkhuong.com/tool/seo-slug-generator.html)
+
+### 🎮 Features Demonstrated:
+- Real-time slug generation
+- Multi-language support
+- Auto language detection  
+- Custom prefix/suffix
+- SEO-friendly URL preview
+- Responsive design
+
+### 📸 Demo Preview
+![Vanilla Slug Demo](https://via.placeholder.com/800x400/667eea/ffffff?text=Vanilla+Slug+Live+Demo+Preview)
+*Interactive demo showing real-time slug conversion*
+
 ## 🚀 Quick Start
 
 ### Installation
