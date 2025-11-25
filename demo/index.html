@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String to Slug Demo | BDKweb</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌍 String to Slug Converter</h1>
+            <p>Multi-language slug generator for SEO-friendly URLs</p>
+        </div>
+
+        <div class="demo-area">
+            <div class="input-group">
+                <label for="title">Title Input:</label>
+                <input type="text" id="title" placeholder="Enter title in any language...">
+            </div>
+
+            <div class="input-group">
+                <label for="slug">Generated Slug:</label>
+                <input type="text" id="slug" placeholder="Slug will appear here...">
+            </div>
+
+            <div class="preview">
+                <strong>URL Preview:</strong>
+                <code>https://example.com/<span id="slug-preview"></span></code>
+            </div>
+
+            <div class="examples">
+                <h3>Try these examples:</h3>
+                <div class="example-list">
+                    <button onclick="testExample('Hello World & Welcome!')">English</button>
+                    <button onclick="testExample('Cộng hòa Xã hội Chủ nghĩa Việt Nam')">Vietnamese</button>
+                    <button onclick="testExample('Déjà vu & Café au lait')">French</button>
+                    <button onclick="testExample('Für Mäuse & Käse')">German</button>
+                    <button onclick="testExample('Canción & Niños')">Spanish</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../dist/string-to-slug.min.js"></script>
+    <script src="demo.js"></script>
+</body>
+</html>

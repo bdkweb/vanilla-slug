@@ -1,0 +1,24 @@
+{
+  "name": "string-to-slug",
+  "version": "1.0.0",
+  "description": "Multi-language string to slug converter for SEO-friendly URLs",
+  "main": "dist/string-to-slug.min.js",
+  "scripts": {
+    "build": "uglifyjs src/string-to-slug.js -o dist/string-to-slug.min.js",
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "slug",
+    "url",
+    "seo",
+    "multilanguage",
+    "vietnamese",
+    "converter"
+  ],
+  "author": "BDKweb (https://dkhuong.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bdkweb/string-to-slug"
+  }
+}
